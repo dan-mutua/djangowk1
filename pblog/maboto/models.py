@@ -21,6 +21,7 @@ class Post(models.Model):
   title = models.CharField(max_length=200)
   author = models.ForeignKey(User, on_delete=models.CASCADE)
   category = models.CharField(max_length=200,default='supercar')
+  images = models.ImageField(null=True,upload_to="images/" )
   body = models.TextField()
 
   def __str__(self):
