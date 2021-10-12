@@ -21,3 +21,7 @@ class UpdateViewB(UpdateView):
   model = Post
   template_name= 'update.html'
   fields = ('title', 'author','body')
+
+class DeleteViewB(DeleteView):
+  model = Post
+  template_name= 'delete.html'
