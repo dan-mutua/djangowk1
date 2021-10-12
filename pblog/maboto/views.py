@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import ListView,DetailView
 from .models import Post
+from .forms import PostForm
 
 # Create your views here.
 
