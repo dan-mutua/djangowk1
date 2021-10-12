@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import ListView,DetailView,UpdateView,DeleteView
+from django.views.generic import ListView,DetailView,UpdateView,DeleteView,CreateView
 from .models import Post
 from .forms import PostForm
 from django.urls import reverse_lazy
@@ -16,6 +16,16 @@ class HomePage(ListView):
 class  BlogD(DetailView):
   model = Post
   template_name='p_detail.html'
+
+class Addp(CreateView):
+  model = Post
+  form_class=PostForm
+  template_name= 'addphoto.html'  
+
+class AddCategory(CreateView):
+  model = Post
+  fields= '__all__'
+  template_name= 'addcategory.html'    
 
 
 class UpdateViewB(UpdateView):
