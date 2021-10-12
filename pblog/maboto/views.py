@@ -20,3 +20,4 @@ class  BlogD(DetailView):
 class UpdateViewB(UpdateView):
   model = Post
   template_name= 'update.html'
+  fields = ('title', 'author','body')
