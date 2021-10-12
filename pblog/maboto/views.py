@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import ListView,DetailView
+from django.views.generic import ListView,DetailView,UpdateView,DeleteView
 from .models import Post
 from .forms import PostForm
 
@@ -15,3 +15,8 @@ class HomePage(ListView):
 class  BlogD(DetailView):
   model = Post
   template_name='p_detail.html'
+
+
+class UpdateViewB(UpdateView):
+  model = Post
+  template_name= 'update.html'

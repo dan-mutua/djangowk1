@@ -9,7 +9,8 @@
 <ul>
 {% for post in object_list %}
    <li><a href="{% url 'blog_detail' post.pk %}">{{ post.title }}</a>- {{ post.author }}</li>
-   <li>{{ post.body }}</li>
+   <li>{{ post.body }}</li><br>
+   <a href="{% url 'updateb' post.pk %}">edit</a>
 
 {% endfor %}   
 </ul>
