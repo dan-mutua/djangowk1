@@ -1,27 +1,24 @@
 # Maboto 
-#### It is a e comerce website  for Tuscan pizza
-#### Created By Daniel Mutua on 2-08-2021
+#### It is a web app for cars
+#### Created By Daniel Mutua on 12-10-2021
 ## Description
-This a two page website for Tuscan pizza shop, which we were supposed to do as our week four project.In this website you can order your favourite pizza with an option for pickup or have it delivered at your doorstep.
+This is a web app where uou can view photos of different cars and get to learn something about cars, when you sign in as admin you can be able to create new post and also delete
 ## Setup/Installation Requirements
 * Git
 * Web-browser or your choice
 * Github
+* VS code
 ## Technologies Used
  The following languages have been used on this project:
- * HTML
- * CSS
+ 
  * BOOTSTRAP
- * Javascript
+ * Python
+ * SQL
 
 ## Setup/Installation Requirements
 
-* Live link to view the project <a href="https://dan-mutua.github.io/tuscan-pizza/index.html">Tuscan pizza</a>
-## Some Screenshots
-<img src="./assets/screenshot1.png" alt="screenshot 1" />
-<img src="./assets/screenshot2.png" alt="screenshot 2" />
-<img src="./assets/screenshot3.png" alt="screenshot 3" />
-<img src="./assets/screenshot4.png" alt="screenshot 4" />
+* Live link to view the project <a href="https://dan-mutua.gith">Tuscan pizza</a>
+
 
 
 ## Known Bugs
