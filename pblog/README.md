@@ -17,7 +17,7 @@ This is a web app where uou can view photos of different cars and get to learn s
 
 ## Setup/Installation Requirements
 
-* Live link to view the project <a href="https://dan-mutua.gith">Tuscan pizza</a>
+* Live link to view the project <a href="">Tuscan pizza</a>
 
 
 
