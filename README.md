@@ -1,8 +1,7 @@
-# Tuscan pizza
-#### It is a e comerce website  for Tuscan pizza
-#### Created By Daniel Mutua on 2-08-2021
+# Maboto
+#### Created By Daniel Mutua on 12-10-2021
 ## Description
-This a two page website for Tuscan pizza shop, which we were supposed to do as our week four project.In this website you can order your favourite pizza with an option for pickup or have it delivered at your doorstep.
+This a web app This is a web app where you can view photos of different cars and get to learn something about cars,when you click on the name of the car you can learn more.
 ## Setup/Installation Requirements
 * Git
 * Web-browser or your choice
@@ -10,18 +9,13 @@ This a two page website for Tuscan pizza shop, which we were supposed to do as o
 ## Technologies Used
  The following languages have been used on this project:
  * HTML
- * CSS
- * BOOTSTRAP
- * Javascript
+ * Bootstrap
+ * Python
+ * SQL
 
 ## Setup/Installation Requirements
 
-* Live link to view the project <a href="https://dan-mutua.github.io/tuscan-pizza/index.html">Tuscan pizza</a>
-## Some Screenshots
-<img src="./assets/screenshot1.png" alt="screenshot 1" />
-<img src="./assets/screenshot2.png" alt="screenshot 2" />
-<img src="./assets/screenshot3.png" alt="screenshot 3" />
-<img src="./assets/screenshot4.png" alt="screenshot 4" />
+* Live link to view the project <a href="https://huyuyy.herokuapp.com/">maboto</a>
 
 
 ## Known Bugs
