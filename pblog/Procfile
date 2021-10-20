@@ -1,1 +1,0 @@
-web: gunicorn pblog.wsgi --log-file -

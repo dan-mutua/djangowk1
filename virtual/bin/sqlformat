@@ -1,4 +1,4 @@
-#!/home/moringa/Documents/djangowk1/virtual/bin/python
+#!/home/moringa/Documents/djangowk1/pblog/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
