@@ -40,25 +40,20 @@ MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG', True)
 # development
-if config('MODE')=="dev":
-   DATABASES = {
+
+DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.postgresql',
-           'NAME': config('DB_NAME'),
-           'USER': config('DB_USER'),
-           'PASSWORD': config('DB_PASSWORD'),
-           'HOST': config('DB_HOST'),
+           'NAME': 'maboto',
+           'USER': 'moringa',
+           'PASSWORD': 'mutua',
+           'HOST': '127.0.0.1',
            'PORT': '',
        }
        
    }
 # production
-else:
-   DATABASES = {
-       'default': dj_database_url.config(
-           default=config('DATABASE_URL')
-       )
-   }
+
 
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
