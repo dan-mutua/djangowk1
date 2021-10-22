@@ -36,8 +36,7 @@ cloudinary.config(
     api_secret="5yEN1UHyrmGq1hsKuI_t5YHyRiQ"
 )
 # SECURITY WARNING: don't run with debug turned on in production!
-MODE=config("MODE", default="dev")
-SECRET_KEY = config('SECRET_KEY')
+
 DEBUG = os.environ.get('DEBUG', True)
 # development
 
@@ -58,7 +57,7 @@ DATABASES = {
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = '.localhost', '.herokuapp.com', '.127.0.0.1'
 
 
 # Email configurations remember to install python-decouple
